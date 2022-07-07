@@ -1,0 +1,71 @@
+.searching {
+margin-right:10px;
+margin-left:10px;
+border:2px double green;
+}
+
+.searching table, .searching th {
+width:100%;
+height:400px;
+background-color:white;
+border:0;
+margin-top:80px;
+padding-bottom:420px;
+}
+
+.searching h2 {
+margin-top:75px;
+margin-left:10px;
+}
+
+.list li {
+list-style-type:none;
+display:inline-block;
+}
+
+#myInput { 
+background-image: url('images/search.png'); background-position:left-top; 
+background-repeat: no-repeat;
+background-size:40px 40px;
+box-sizing: border-box; 
+width: 90%; 
+color:chocolate;
+font-size: 16px; 
+padding: 12px 20px 13px 40px;
+border: 2px double green; 
+margin-bottom: 12px; 
+margin-left:10px;
+margin-right:10px;
+box-shadow:0 10px 16px 0 gray;
+border-radius:5px;
+} 
+
+#myUL { 
+list-style-type: none; 
+padding: 0; 
+margin: 0; 
+} 
+
+#myUL li a { 
+border: 2px double chocolate; 
+background-color:transparent; 
+padding: 10px;
+margin:20px;
+text-decoration: none; 
+font-size: 20px; 
+color: green; 
+border-radius:5px;
+display:block; 
+} 
+
+#myUL a:hover { 
+background-color:transparent;
+color:chocolate;
+border: 2px double gray; 
+-webkit-transition:0.9s;
+-moz-transition:0.9s;
+-o-transition:0.9s;
+transition:0.9s;
+box-shadow:0 10px 16px 0 black;
+}
+

@@ -1,0 +1,584 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/body.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+  background-color: white;
+  margin: 0;
+}
+
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  z-index: 1001;
+  -webkit-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+  display: inline-block;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  box-shadow: 0px 8px 16px 0px black;
+}
+
+.header h1 {
+  margin-left: 53px;
+  margin-right: 53px;
+  color: white;
+  font-size: 20px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px 20px;
+  margin-right: 10px;
+}
+
+h1 {
+  margin-left: 3px;
+  color: chocolate;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+h2 {
+  color: chocolate;
+  font-size: 25px;
+  padding: 5px;
+  text-align: justify;
+  font-weight: 400px;
+}
+
+h3 {
+  color: chocolate;
+  font-size: 25px;
+  padding: 5px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.header p {
+  color: gold;
+  font-size: 20px;
+  padding: 5px;
+  text-align: justify;
+  font-weight: 400px;
+  margin-bottom: 10px;
+}
+
+.markone {
+  color: green;
+  background-color: white;
+  font-weight: 400px;
+}
+
+.marktwo {
+  color: red;
+  background-color: white;
+  font-weight: 400px;
+}
+
+.markthree {
+  color: gold;
+  background-color: white;
+  font-weight: 400px;
+}
+
+.markfour {
+  color: green;
+  background-color: transparent;
+  font-weight: 400px;
+}
+
+.markfive {
+  color: red;
+  background-color: transparent;
+  font-weight: 400px;
+}
+
+.marksix {
+  color: gold;
+  background-color: transparent;
+  font-weight: 400px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: chocolate;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+  display: block;
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -ms-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+  text-align: left;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  text-decoration: none;
+  color: green;
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -ms-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.sidenav p {
+  font-size: 10px;
+  color: green;
+  margin-left: 28px;
+}
+
+.sidenav .sidemedia a {
+  padding: 10px;
+}
+
+.sidenav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.menu {
+  color: chocolate;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: green;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.search a {
+  color: chocolate;
+  font-size: 22px;
+}
+
+.search a:hover {
+  color: green;
+  font-size: 22px;
+}
+
+.navmenu {
+  float: right;
+  margin-right: 22.7%;
+}
+
+.navmenu a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: chocolate;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.navmenu a:hover {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  border-bottom: 2px solid green;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.start {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.title {
+  margin-top: 230px;
+  margin-bottom: 230px;
+  margin-right: 20px;
+}
+
+.title h1 {
+  color: chocolate;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.title p {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: gold;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 100%;
+}
+
+.title a {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px double green;
+  padding: 10px;
+}
+
+.title a:hover {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  color: gray;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+  opacity: 0.8;
+}
+
+.intro {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 2px double green;
+  box-shadow: 0px 8px 16px 0px gray;
+}
+
+.introslides img {
+  margin-top: 50px;
+  border: 2px double green;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0;
+}
+
+.text {
+  color: green;
+  font-size: 20px;
+  padding: 8px 9px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: green;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: gold;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
+.maincontent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/boy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px double green;
+  padding-top: 25px;
+}
+
+.content {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border: 2px double green;
+  box-shadow: 0px 8px 16px 5px black;
+}
+
+.content h3 {
+  border-bottom: 2px double green;
+  padding-bottom: 30px;
+}
+
+.content img {
+  border-bottom: 2px double green;
+  width: 330px;
+  height: 330px;
+  box-shadow: 0px 8px 16px 0px black;
+}
+
+.content table {
+  width: 100%;
+  height: 100%;
+}
+
+.content th {
+  width: auto;
+  height: 150px;
+  border-top: 2px double green;
+}
+
+.heart {
+  padding-top: 17px;
+  height: 130px;
+  border: 2px double chocolate;
+  box-shadow: 0px 8px 16px 0px black;
+}
+
+.comment {
+  cursor: pointer;
+  padding-top: 17px;
+  height: 130px;
+  border: 2px double chocolate;
+  box-shadow: 0px 8px 16px 0px black;
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.heart a {
+  margin-left: -30px;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.heart a:hover {
+  margin-left: -30px;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  color: red;
+  font-weight: bold;
+}
+
+.heart p {
+  font-size: 20px;
+  color: green;
+}
+
+.comment a {
+  margin-left: -30px;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.comment a:hover {
+  margin-left: -30px;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  color: gold;
+  font-weight: bold;
+}
+
+.comment p {
+  font-size: 20px;
+  color: green;
+}
+
+.close {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+  padding: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+
+.close a {
+  color: chocolate;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.close a:hover {
+  color: green;
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -ms-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.close li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  text-align: left;
+}
+
+.close table {
+  width: 100%;
+}
+
+.close th {
+  width: 50%;
+  height: auto;
+}
+
+.closes li {
+  list-style-type: none;
+  display: block;
+}
+
+.closet li {
+  list-style-type: none;
+  display: block;
+}
+
+.closes a {
+  font-size: 18px;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: chocolate;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  color: gold;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer a {
+  margin: 10px;
+  padding: 5px;
+  color: green;
+  font-size: 30px;
+}
+
+.footer a:hover {
+  margin: 10px;
+  padding: 5px;
+  color: chocolate;
+  font-size: 30px;
+  opacity: 0.7;
+}

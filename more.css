@@ -1,0 +1,26 @@
+.more img {
+margin-top:40px;
+width:100%;
+height:750px;
+box-shadow: 0px 8px 16px 0px gray;
+}
+
+h6 {
+color:green;
+font-size:25px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.more p {
+text-indent:50px;
+color:chocolate;
+font-size:20px;
+margin-left:10px;
+margin-right:10px;
+text-align:justify;
+border:2px double green;
+margin-bottom:30px;
+padding:20px;
+box-shadow: 0px 8px 16px 0px gray;
+}

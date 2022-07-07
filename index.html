@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/jpg" href="images/logo.jpg">
+  <title>Chilay's Pizza | Home</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Pizza">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="recipe collection of pizza"/>
+  <meta name="author" content="Francia Valles" />
+        
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <center>
+      <li>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html"><i class="fa fa-home"></i> Home</a>
+          <a href="about.html"><i class="fa fa-user-circle-o"></i> About</a>
+          <a href="contact.html"><i class="fa fa-phone-square"></i> Contact</a>
+          <a href="video.html"><i class="fa fa-youtube-play"></i> Videos</a>
+          <a href="search.html"><i class="fa fa-search"> Search</i></a>
+          <a href="more.html"><i class="fa fa-pie-chart"></i> More Pizza</a>
+
+          <div class="sidemedia">
+              <p>Follow us on Social Media</p>
+              <ul>
+                <li><a href="https://www.facebook.com/ChilaysPizza/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+          </div>
+        </div>
+    
+        <span onclick="openNav()" class="menu"><i class="fa fa-bars"></i></span>
+
+        <script>
+          function openNav(){ document.getElementById("mySidenav") .style.width="250px"; } function closeNav() { document.getElementById("mySidenav") .style.width = "0"; } 
+        </script>
+      </li>
+
+      <li>
+        <div>
+          <h1>
+            <a href="index.html">
+            <img src="images/logo.jpg" alt="logo" class="logo"></a><mark class="markone">&Cayleys;hi</mark><mark class="marktwo">&Lscr;ay's</mark><mark class="markthree">&nbsp;&weierp;izza</mark>
+          </h1>
+        <div>
+      </li>
+
+      <li class="search">
+        <a href="search.html"><i class="fa fa-search"></i></a>
+      </li>
+
+      <li class="navmenu">
+        <ul>
+          <li><a href="index.html" style="border-bottom:2px solid green; color:green;"><i class="fa fa-home"></i></a></li>
+          <li><a href="about.html"><i class="fa fa-user-circle"></i></a></li>
+          <li><a href="contact.html"><i class="fa fa-phone-square"></i></a></li>
+          <li><a href="video.html"><i class="fa fa-youtube-play"></i></a><li>
+          <li><a href="more.html"><i class="fa fa-pie-chart"></i></a><li>
+        </ul>
+      </li>
+    </center>
+  </div>
+
+  <center>
+    <div class="start">
+      <li>
+        <div class="title">
+      <h1>
+        <label id="lblGreetings"></label>
+        <script> 
+          var myDate = new Date(); 
+          var hrs = myDate.getHours(); 
+          var greet; 
+          if (hrs < 12) greet = 'Good Morning!<br>It’s a new day just keep smile. '; 
+          else if (hrs >= 12 && hrs <= 17) 
+            greet = 'Good Afternoon!<br>How was your day? '; 
+          else if (hrs >= 17 && hrs <= 24) 
+            greet = 'Good Evening,<br>Don’t forget to pray before you sleep. '; document.getElementById('lblGreetings').innerHTML = '<b>' + greet + '</b><br>I hope you’re feeling better now. <i class="fa fa-smile-o"> </i> <i class="fa fa-heart-o"></i> '; 
+        </script>
+      </h1>
+
+      <h1><mark class="markfour">&Cayleys;hi</mark><mark class="markfive">&Lscr;ay's</mark><mark class="marksix">&nbsp;&weierp;izza</mark></h1>
+      <p>The collection of your favorite pizza is here!</p>
+
+      <ul>
+        <li><a href="video.html">Watch Videos</a></li>
+        <li><a href="more.html">More Pizza</a></li>
+      </ul>
+    </div>
+
+    <li>
+      <div class="introslides">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="images/pizza1.jpg" style="width:340px; height:200px;">
+            <div class="text">Hawaiian Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza2.jpg" style="width:340px; height:200px;">
+            <div class="text">Four Cheese Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza3.jpg" style="width:340px; height:200px;">
+            <div class="text">Homemade Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza4.jpg" style="width:340px; height:200px;">
+            <div class="text">Ham-Cheese Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza5.jpg" style="width:340px; height:200px;">
+            <div class="text">Hawaiian-Pandesal</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza6.jpg" style="width:340px; height:200px;">
+            <div class="text">Tortilla Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza7.jpg" style="width:340px; height:200px;">
+            <div class="text">Pepperoni Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza8.jpg" style="width:340px; height:200px;">
+            <div class="text">Pork Adobo Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza9.jpg" style="width:340px; height:200px;">
+            <div class="text">Double-Mushroom</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza10.jpg" style="width:340px; height:200px;">
+            <div class="text">Bacon Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza11.jpg" style="width:340px; height:200px;">
+            <div class="text">Lechon Pizza</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="images/pizza12.jpg" style="width:340px; height:200px;">
+          <div class="text">Sisig Pizza</div>
+          </div>
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </li>
+
+  <div class="intro">
+    <h2>The recipe collection of our pizza is here and we hope you'll find the best pizza for your family and friends.</h2>
+  </div>
+
+  <center>
+    <div class="maincontent">
+      <li>
+        <div class="content">
+          <a href="Hawaiian.html">
+          <img src="images/pizza1.jpg" alt="Hawaiian Pizza"></a>
+          <h3>Hawaiian Pizza</h3>
+          <table>
+            <th>
+            <div class="heart">
+              <ul>
+                <li><a onclick="one()" type=""><i class="fa fa-heart-o"></i></a></li>
+                <li><p id="one">&nbsp;</p></li>
+              </ul>
+              <script>
+              function one() {
+                if (typeof(Storage) !== "undefined") {
+                  if (localStorage.countone) {
+                    localStorage.countone = Number(localStorage.countone)+1;
+                  } 
+                  else {
+                    localStorage.countone = 1;
+                  }
+                  document.getElementById("one").innerHTML = " " + localStorage.countone + "";
+                } 
+                else {
+                  document.getElementById("one").innerHTML = "Sorry, your browser does not support web storage...";
+                }
+              }
+              </script>
+            </div>
+          </th>
+
+          <th>
+            <div class="comment">
+              <ul>
+                <li><a onclick="onestar()" type=""><i class="fa fa-smile-o"></i></a></li>
+                <li><p id="onestar">&nbsp;</p></li>
+              </ul>
+              <script>
+              function onestar() {
+                if (typeof(Storage) !== "undefined") {
+                  if (localStorage.countonestar) {
+                    localStorage.countonestar = Number(localStorage.countonestar)+1;
+                  }
+                  else {
+                    localStorage.countonestar = 1;
+                  }
+                  document.getElementById("onestar").innerHTML = " " + localStorage.countonestar + "";
+                } 
+                else {
+                  document.getElementById("onestar").innerHTML = "Sorry, your browser does not support web storage...";
+                }
+              }
+              </script>
+            </div>
+          </th>
+      </table>
+    </div>
+  </li>
+
+<li><div class="content">
+<a href="Cheese.html">
+<img src="images/pizza2.jpg" alt="FOUR CHEESE PIZZA"></a><h3>Four Cheese Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="two()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="two">&nbsp;</p></li></ul>
+
+<script>
+function two() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counttwo) {
+      localStorage.counttwo = Number(localStorage.counttwo)+1;
+    } else {
+      localStorage.counttwo = 1;
+    }
+    document.getElementById("two").innerHTML = " " + localStorage.counttwo + "";
+  } else {
+    document.getElementById("two").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="twostar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="twostar">&nbsp;</p></li></ul>
+
+<script>
+function twostar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counttwostar) {
+      localStorage.counttwostar = Number(localStorage.counttwostar)+1;
+    } else {
+      localStorage.counttwostar = 1;
+    }
+    document.getElementById("twostar").innerHTML = " " + localStorage.counttwostar + "";
+  } else {
+    document.getElementById("twostar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Homemade.html">
+<img src="images/pizza3.jpg" alt="SPECIAL HOMEMADE PIZZA"></a><h3>Homemade Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="three()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="three">&nbsp;</p></li></ul>
+
+<script>
+function three() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countthree) {
+      localStorage.countthree = Number(localStorage.countthree)+1;
+    } else {
+      localStorage.countthree = 1;
+    }
+    document.getElementById("three").innerHTML = " " + localStorage.countthree + "";
+  } else {
+    document.getElementById("three").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="threestar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="threestar">&nbsp;</p></li></ul>
+
+<script>
+function threestar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countthreestar) {
+      localStorage.countthreestar = Number(localStorage.countthreestar)+1;
+    } else {
+      localStorage.countthreestar = 1;
+    }
+    document.getElementById("threestar").innerHTML = " " + localStorage.countthreestar + "";
+  } else {
+    document.getElementById("threestar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Ham.html">
+<img src="images/pizza4.jpg" alt="HAM AND CHEESE PIZZA TORTILLA"></a><h3>Ham-Cheese Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="four()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="four">&nbsp;</p></li></ul>
+
+<script>
+function four() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countfour) {
+      localStorage.countfour = Number(localStorage.countfour)+1;
+    } else {
+      localStorage.countfour = 1;
+    }
+    document.getElementById("four").innerHTML = " " + localStorage.countfour + "";
+  } else {
+    document.getElementById("four").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="fourstar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="fourstar">&nbsp;</p></li></ul>
+
+<script>
+function fourstar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countfourstar) {
+      localStorage.countfourstar = Number(localStorage.countfourstar)+1;
+    } else {
+      localStorage.countfourstar = 1;
+    }
+    document.getElementById("fourstar").innerHTML = " " + localStorage.countfourstar + "";
+  } else {
+    document.getElementById("fourstar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Pandesal.html">
+<img src="images/pizza5.jpg" alt="HAWAIIAN PIZZA PANDESAL"></a><h3>Hawaiian-Pandesal</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="five()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="five">&nbsp;Love</p></li></ul>
+
+<script>
+function five() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countfive) {
+      localStorage.countfive = Number(localStorage.countfive)+1;
+    } else {
+      localStorage.countfive = 1;
+    }
+    document.getElementById("five").innerHTML = " " + localStorage.countfive + "";
+  } else {
+    document.getElementById("five").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="fivestar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="fivestar">&nbsp;</p></li></ul>
+
+<script>
+function fivestar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countfivestar) {
+      localStorage.countfivestar = Number(localStorage.countfivestar)+1;
+    } else {
+      localStorage.countfivestar = 1;
+    }
+    document.getElementById("fivestar").innerHTML = " " + localStorage.countfivestar + "";
+  } else {
+    document.getElementById("fivestar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Tortilla.html">
+<img src="images/pizza6.jpg" alt="HOMEMADE PIZZA TORTILLA"></a><h3>Tortilla Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="six()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="six">&nbsp;</p></li></ul>
+
+<script>
+function six() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countsix) {
+      localStorage.countsix = Number(localStorage.countsix)+1;
+    } else {
+      localStorage.countsix = 1;
+    }
+    document.getElementById("six").innerHTML = " " + localStorage.countsix + "";
+  } else {
+    document.getElementById("six").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="sixstar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="sixstar">&nbsp;</p></li></ul>
+
+<script>
+function sixstar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countsixstar) {
+      localStorage.countsixstar = Number(localStorage.countsixstar)+1;
+    } else {
+      localStorage.countsixstar = 1;
+    }
+    document.getElementById("sixstar").innerHTML = " " + localStorage.countsixstar + "";
+  } else {
+    document.getElementById("sixstar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Pepperoni.html">
+<img src="images/pizza7.jpg" alt="Pepperoni Pizza"></a><h3>Pepperoni Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="seven()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="seven">&nbsp;</p></li></ul>
+
+<script>
+function seven() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countseven) {
+      localStorage.countseven = Number(localStorage.countseven)+1;
+    } else {
+      localStorage.countseven = 1;
+    }
+    document.getElementById("seven").innerHTML = " " + localStorage.countseven + "";
+  } else {
+    document.getElementById("seven").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="sevenstar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="sevenstar">&nbsp;</p></li></ul>
+
+<script>
+function sevenstar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countsevenstar) {
+      localStorage.countsevenstar = Number(localStorage.countsevenstar)+1;
+    } else {
+      localStorage.countsevenstar = 1;
+    }
+    document.getElementById("sevenstar").innerHTML = " " + localStorage.countsevenstar + "";
+  } else {
+    document.getElementById("sevenstar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Adobo.html">
+<img src="images/pizza8.jpg" alt="Pork Adobo Pizza "></a><h3>Pork Adobo Pizza </h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="eight()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="eight">&nbsp;</p></li></ul>
+
+<script>
+function eight() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counteight) {
+      localStorage.counteight = Number(localStorage.counteight)+1;
+    } else {
+      localStorage.counteight = 1;
+    }
+    document.getElementById("eight").innerHTML = " " + localStorage.counteight + "";
+  } else {
+    document.getElementById("eight").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="eightstar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="eightstar">&nbsp;</p></li></ul>
+
+<script>
+function eightstar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counteightstar) {
+      localStorage.counteightstar = Number(localStorage.counteightstar)+1;
+    } else {
+      localStorage.counteightstar = 1;
+    }
+    document.getElementById("eightstar").innerHTML = " " + localStorage.counteightstar + "";
+  } else {
+    document.getElementById("eightstar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Mushroom.html">
+<img src="images/pizza9.jpg" alt="Double-Mushroom Pizza"></a><h3>Double-Mushroom</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="nine()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="nine">&nbsp;</p></li></ul>
+
+<script>
+function nine() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countnine) {
+      localStorage.countnine = Number(localStorage.countnine)+1;
+    } else {
+      localStorage.countnine = 1;
+    }
+    document.getElementById("nine").innerHTML = " " + localStorage.countnine + "";
+  } else {
+    document.getElementById("nine").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="ninestar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="ninestar">&nbsp;</p></li></ul>
+
+<script>
+function ninestar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countninestar) {
+      localStorage.countninestar = Number(localStorage.countninestar)+1;
+    } else {
+      localStorage.countninestar = 1;
+    }
+    document.getElementById("ninestar").innerHTML = " " + localStorage.countninestar + "";
+  } else {
+    document.getElementById("ninestar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Bacon.html">
+<img src="images/pizza10.jpg" alt="Bacon Pizza"></a><h3>Bacon Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="ten()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="ten">&nbsp;</p></li></ul>
+
+<script>
+function ten() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countten) {
+      localStorage.countten = Number(localStorage.countten)+1;
+    } else {
+      localStorage.countten = 1;
+    }
+    document.getElementById("ten").innerHTML = " " + localStorage.countten + "";
+  } else {
+    document.getElementById("ten").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="tenstar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="tenstar">&nbsp;</p></li></ul>
+
+<script>
+function tenstar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counttenstar) {
+      localStorage.counttenstar = Number(localStorage.counttenstar)+1;
+    } else {
+      localStorage.counttenstar = 1;
+    }
+    document.getElementById("tenstar").innerHTML = " " + localStorage.counttenstar + "";
+  } else {
+    document.getElementById("tenstar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Lechon.html">
+<img src="images/pizza11.jpg" alt="Lechon Pizza"></a><h3>Lechon Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="eleven()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="eleven">&nbsp;</p></li></ul>
+
+<script>
+function eleven() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counteleven) {
+      localStorage.counteleven = Number(localStorage.counteleven)+1;
+    } else {
+      localStorage.counteleven = 1;
+    }
+    document.getElementById("eleven").innerHTML = " " + localStorage.counteleven + "";
+  } else {
+    document.getElementById("eleven").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="elevenstar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="elevenstar">&nbsp;</p></li></ul>
+
+<script>
+function elevenstar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.countelevenstar) {
+      localStorage.countelevenstar = Number(localStorage.countelevenstar)+1;
+    } else {
+      localStorage.countelevenstar = 1;
+    }
+    document.getElementById("elevenstar").innerHTML = " " + localStorage.countelevenstar + "";
+  } else {
+    document.getElementById("elevenstar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+<li><div class="content">
+<a href="Sisig.html">
+<img src="images/pizza12.jpg" alt="Sisig Pizza"></a><h3>Sisig Pizza</h3>
+<table>
+<th>
+<div class="heart">
+<ul><li><a onclick="twelve()" type=""><i class="fa fa-heart-o"></i></a></li>
+<li><p id="twelve">&nbsp;</p></li></ul>
+
+<script>
+function twelve() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counttwelve) {
+      localStorage.counttwelve = Number(localStorage.counttwelve)+1;
+    } else {
+      localStorage.counttwelve = 1;
+    }
+    document.getElementById("twelve").innerHTML = " " + localStorage.counttwelve + "";
+  } else {
+    document.getElementById("twelve").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+
+<th>
+<div class="comment">
+
+<ul><li><a onclick="twelvestar()" type=""><i class="fa fa-smile-o"></i></a></li>
+<li><p id="twelvestar">&nbsp;</p></li></ul>
+
+<script>
+function twelvestar() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.counttwelvestar) {
+      localStorage.counttwelvestar = Number(localStorage.counttwelvestar)+1;
+    } else {
+      localStorage.counttwelvestar = 1;
+    }
+    document.getElementById("twelvestar").innerHTML = " " + localStorage.counttwelvestar + "";
+  } else {
+    document.getElementById("twelvestar").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script></div>
+</th>
+</table>
+</div></li>
+
+</div>
+</center>
+
+<center><div class="close">
+
+<li><table><th class="closet"><li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+<li><a href="about.html"><i class="fa fa-user-circle-o"></i> About</a></li>
+<li><a href="contact.html"><i class="fa fa-phone-square"></i> Contact</a></li>
+<li><a href="video.html"><i class="fa fa-youtube-play"></i> Videos</a></li>
+<li><a href="search.html"><i class="fa fa-search"></i> Search</a></li>
+<li><a href="more.html"><i class="fa fa-pie-chart"></i> More Pizza</a></li></th></table></li>
+
+<li><table><th class="closes">
+<br>
+<br>
+<li><a href="https://www.facebook.com/ChilaysPizza/" target="_blank">
+<i class="fa fa-facebook"></i> facebook.com/ChilaysPizza</a></li>
+<li><a href="#" 
+target="_self"><i class="fa fa-instagram"></i> instagram.com/ChilaysPizza</a></li>
+<li><a href="#" target="_self"><i class="fa fa-twitter"></i> twitter.com/ChilaysPizza</a></li></th></table></li>
+</div></center>
+
+<div class="footer">
+<p>Follow us on Social Media</p>
+<li><a href="https://www.facebook.com/ChilaysPizza/" target="_blank">
+<i class="fa fa-facebook"></i></a></li>
+<li><a href="https://www.instagram.com" 
+target="_blank"><i class="fa fa-instagram"></i></a></li>
+<li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+<p>Copyright &copy; 2019 Chilay's Pizza. All rights reserved.</p>
+</div>
+
+</body>
+</html>

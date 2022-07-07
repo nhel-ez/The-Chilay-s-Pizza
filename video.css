@@ -1,0 +1,34 @@
+
+
+.videos {
+background-color:white;
+margin-top:70px;
+border:2px double green;
+padding-bottom:100px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.videos h6 {
+background-color:white;
+text-align:center;
+color:green;
+font-size:25px;
+margin-left:10px;
+margin-right:10px;
+width:90%;
+padding:30px;
+border:2px double green;
+box-shadow: 0px 8px 16px 0px gray;
+}
+
+video {
+background-color:white;
+border:2px double green;
+margin-left:2%;
+margin-right:2%;
+margin-top:100px;
+width:90%;
+height:400px;
+box-shadow: 0px 8px 16px 0px gray;
+}
